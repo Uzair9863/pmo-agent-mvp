@@ -1,0 +1,5 @@
+C:\Users\pc>aws s3 ls s3://pz-pmo-agent-data/
+2025-07-30 20:08:22       5818 RAID.xlsx
+
+C:\Users\pc>aws s3 cp s3://pz-pmo-agent-data/RAID.xlsx ./RAID_downloaded.xlsx
+download: s3://pz-pmo-agent-data/RAID.xlsx to .\RAID_downloaded.xlsx
