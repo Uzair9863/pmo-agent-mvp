@@ -1,3 +1,4 @@
+# Week 2: Lambda handler for parsing RAID.xlsx from S3 and saving RAID.json
 import json
 import boto3
 import openpyxl
@@ -42,3 +43,4 @@ def lambda_handler(event, context):
             "rows": rows
         })
     }
+
