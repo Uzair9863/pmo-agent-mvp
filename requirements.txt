@@ -1,2 +1,5 @@
+# Week 2: Dependencies for Lambda + local parsing
 openpyxl
 boto3
+
+
